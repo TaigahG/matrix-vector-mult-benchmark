@@ -37,4 +37,4 @@ these files are executed 3 times each with different input values N = 2000 and N
 ![SpaceCmplx](images/Space.png)
 
 Below is the graph:
-![SpaceGraph](images/TimeGrph.png)
+![SpaceGraph](images/SpaceGrph.png)
