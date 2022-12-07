@@ -26,7 +26,7 @@ void printVec(int* v, int N){
 }
 
 
-void mtrVctMult(int* M, int* v, int* result, int N){
+void matVectMult(int* M, int* v, int* result, int N){
 
     for(int i=0; i<N; i++){
         result[i]=0;

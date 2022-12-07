@@ -14,7 +14,7 @@ int main(){
     else{
     int *matrix = (int *) malloc(N*N*sizeof(int));
     int *vector = (int *) malloc(N*sizeof(int));
-    int *rslt = (int *) malloc(N*sizeof(int));
+    int *result = (int *) malloc(N*sizeof(int));
 
     printf("matrix values:\n");
     for(int i = 0; i < N*N; i++){
@@ -30,14 +30,14 @@ int main(){
     printf("\nVector = ");
     printVec(vector, N);
 
-    mtrVctMult(matrix, vector, rslt, N);
+    matVectMult(matrix, vector, result, N);
 
     printf("\nResult = ");
-    printVec(rslt, N);
+    printVec(result, N);
 
     free(matrix);
     free(vector);
-    free(rslt);
+    free(result);
 
 
     }

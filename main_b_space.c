@@ -8,15 +8,15 @@ int main(){
     printf("N: \n");
     scanf("%d", &N);
 
-    int mtrx[N*N];
-    int vctr[N];
-    int rslt[N];
+    int matrix[N*N];
+    int vector[N];
+    int result[N];
 
-    initMat(mtrx, N);
-    initVec(vctr, N);
+    initMat(matrix, N);
+    initVec(vector, N);
 
     while(1){
-        mtrVctMult(mtrx, vctr, rslt, N);
+        matVectMult(matrix, vector, result, N);
     }
     return 0;
 }

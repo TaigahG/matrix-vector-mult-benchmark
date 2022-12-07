@@ -25,7 +25,7 @@ int main(){
         initVec(vector, N);
 
         start = clock();
-        mtrVctMult(matrix, vector, result, N);
+        matVectMult(matrix, vector, result, N);
         end = clock();
 
         cpu_time_used = ((double) (end - start)) / CLOCKS_PER_SEC;
